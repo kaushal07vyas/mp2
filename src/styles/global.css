@@ -1,0 +1,45 @@
+:root {
+  --red: #dc2f3c;
+  --red-dark: #a51e2a;
+  --ink: #1d2433;
+  --muted: #5f6878;
+  --paper: #edf0f4;
+  --surface: #ffffff;
+  --line: #d8dde5;
+
+  --font-display: 'Bricolage Grotesque', 'Segoe UI', system-ui, sans-serif;
+  --font-body: 'Atkinson Hyperlegible', 'Segoe UI', system-ui, sans-serif;
+
+  --max-width: 1120px;
+
+  color-scheme: light;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--ink);
+  background: var(--paper);
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: var(--red-dark);
+}
+
+:focus-visible {
+  outline: 3px solid #3aa7e0;
+  outline-offset: 2px;
+}
