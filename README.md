@@ -149,3 +149,13 @@ git push origin main
 We acknowledge the transformative potential of LLMs in generating code; however, we are still in the nascent stages of understanding how to embed LLMs in developer workflows to write code more efficiently while maintaining quality. Therefore, we will not be teaching students directly how to use LLMs to develop web applications.
 
 As part of this class, we do encourage students to experiment with LLM services such as OpenAI's ChatGPT to generate source code for MPs. If LLMs are used to generate code for an MP, students must (1) submit their chatlogs along with their source code, and (2) answer survey questions related to their experience using LLMs in the grading form. Failure to do this will be a violation of the academic integrity policy of this course.
+
+## Sources
+
+- PokeAPI: https://pokeapi.co/docs/v2
+- React docs: https://react.dev/learn
+- React Router docs: https://reactrouter.com
+- Axios docs: https://axios-http.com/docs/intro
+- Vite docs: https://vite.dev/guide/
+- Normalize.css: https://necolas.github.io/normalize.css/
+- LLM usage: Claude (Anthropic) was used to generate and debug the code. The chatlog is in `chatlogs/`.
